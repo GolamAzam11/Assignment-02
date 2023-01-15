@@ -34,7 +34,42 @@ a{
 .nav-li li{
     padding: 5px 14px;
 }
+@media only screen and (max-width:767px) {
+    .nav-li{
+        list-style-type: none;
+        gap: 4px;
+        font-size: 18px;
+        display: grid;  
+        
+}
+.nav-1{
+    padding: 20px;
+    background-color: rgb(214, 211, 169);
+    font-family: cursive;
+}
+.nav-text{
+    font-size: 25px;
+}
+}
 /* -----navbar------ */
+@media only screen and (max-width:767px){
+    .head-container-1{
+        position: absolute;
+        text-align: center;
+        margin-top:80px ;
+        /* height: 270px; */
+        width: 300px;
+        left: 150px;
+
+        
+    }
+    .section-text{
+        font-weight: 700;
+        line-height: 64px;
+        font-size: 64px;
+        display: grid;
+        }
+}
 .head-container-1{
     position: absolute;
     text-align: center;
@@ -191,9 +226,6 @@ color: #dadce0;
 .img-fu{
     margin-left: 20px;
     margin-top: 80px;
-}
-.foot-head{
-
 }
 .text-foot{
    font-weight: 700;
